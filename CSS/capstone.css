@@ -57,11 +57,12 @@
 		border: solid black 1px;
 		border-radius: 12%;
 		box-shadow: 6px 6px 4px 0px rgba(0,0,0,.7);
+
 	}
 	
 	
 	.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11{
-		display: inline-block;
+		display: block;	
 		border: black 1px ;
 		margin: 3%;
 		background-image: linear-gradient(rgba(31,34,41,1),rgba(131,134,141,0.05));
@@ -119,7 +120,7 @@
 	}*/
 	
 	h1{
-		font-size: 100%;
+		font-size: 180%;
 
 	}
 	span a{
@@ -131,11 +132,10 @@
 		margin-left: 10%;
 		margin-right: 10%;
 		text-align: center;
-		margin-top: 10%;
 
 	}
 }
-@media screen and (min-width:1023px){
+@media screen and (min-width:1000px){
 	nav a{
 		display: inline-block;
 		margin:0 auto;
@@ -193,7 +193,6 @@
 		margin-left: 10%;
 		margin-right: 10%;
 		text-align: center;
-		margin-top: 10%;
 
 	}
 	#data-title{
@@ -205,4 +204,8 @@
 
 
 	}
+	.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11{
+		display: inline-block;
+	}
+
 }
